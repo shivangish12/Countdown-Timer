@@ -1,0 +1,25 @@
+/* DateTimePicker.css */
+.datetimepicker {
+  display: flex;
+  background: transparent;
+  border: solid 1px white;
+  border-color: white;
+}
+
+.customdateinput,
+.customtimeinput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+.customdateinput {
+  width: 55%;
+}
+.cut .customdateinput::placeholder,
+.customtimeinput::placeholder {
+  color: #999;
+}

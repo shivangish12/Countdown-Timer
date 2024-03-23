@@ -1,0 +1,38 @@
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button {
+  border-color: white;
+  background-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  width: 90px;
+}
+
+.cardsContainer {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+p {
+  color: white;
+  font-size: x-large;
+}
+
+h2 {
+  color: #5e5d5d;
+}
+.card {
+  background: linear-gradient(to top right, purple, lightblue);
+  border-radius: 10%;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
